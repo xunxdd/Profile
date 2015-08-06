@@ -188,7 +188,7 @@ $(function(){
             selector: ".slides > .item",
             manualControls: ".flex-control-nav li",
             directionNav : false,
-            slideshowSpeed: 6000,
+            slideshowSpeed: 10000,
             after: function(slider){
                 if (!slider.playing) {
                     slider.play();
